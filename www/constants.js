@@ -2,6 +2,7 @@
 var VendorMap = {
   '0x1013': 'Cirrus Logic',
   '0x1002': 'AMD',
+  '0x1022': 'AMD',
   '0x8086': 'Intel',
   '0x5333': 'S3 Graphics',
   '0x1039': 'SIS',
@@ -10,7 +11,12 @@ var VendorMap = {
   '0x102b': 'Matrox',
   '0x15ad': 'VMWare',
   '0x80ee': 'Oracle VirtualBox',
+  '0x1ab8': 'Parallels',
   '0x1414': 'Microsoft Basic',
+  'mesa/llvmpipe': 'MESA',
+  'mesa/softpipe': 'MESA',
+  'mesa/swrast':   'MESA',
+  'mesa/unknown':  'MESA',
 };
 function LookupVendor(code)
 {
